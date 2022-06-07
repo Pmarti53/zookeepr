@@ -17,8 +17,10 @@ function filterByQuery(query, animalsArray) {
         }
 
         personaliltyTraitsArray.forEach(trait => {
-            
-        })
+            filteredResults = filteredResults.filter(
+                animal => animal.personaliltyTraits.indexOf(trait) !== -1
+            );
+        });
     }
     if (query.diet) {
         filteredResults = filteredResults.filter(animal => animal.diet === query.diet);
