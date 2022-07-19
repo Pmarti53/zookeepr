@@ -2,7 +2,7 @@
 
 
 ## Description
-
+Zookeeper is an online animal catalog for users to make AJAX requests to the server built by Express.js
 
 ## Website
 
@@ -20,9 +20,10 @@ Live version can be found here https://fierce-fjord-19090.herokuapp.com/
 
 
 ## Technologies Used
-  * MongoDb with Mongoose ODM
-  * React
-  * GraphQL with Apollo Client
+*Express.js
+*HTML
+*CSS
+*Node.js
   
 ## Github
 Pmarti53
